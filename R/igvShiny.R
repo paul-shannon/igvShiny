@@ -1,6 +1,7 @@
 library(jsonlite)
 library(shiny)
 library(VariantAnnotation)
+library(R.utils)
 #----------------------------------------------------------------------------------------------------
 printf <- function(...) print(noquote(sprintf(...)))
 state <- new.env(parent=emptyenv())
